@@ -1,0 +1,19 @@
+div{
+    width: 1000px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: rgb(1, 94, 1);
+}
+p{
+    border: 1px solid black;
+    padding: 5PX;
+}
+img{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+li{
+    background: rgb(1, 94, 1);
+}

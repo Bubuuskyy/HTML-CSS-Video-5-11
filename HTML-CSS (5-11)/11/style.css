@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+header img{
+    width: 100px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    float: left;
+}
+nav{
+    clear: both;
+}
+section{
+    margin-top: 2%;
+}
+footer{
+    margin-top: 3%;
+    text-align: center;
+}
+section p{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.content{
+    margin-top: 2%;
+}
+section table{
+    margin-top: 2%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    background: rgb(1, 94, 1);
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+ul li{
+    color: #fff;
+    background: rgb(1, 94, 1);
+    display: inline-block;
+    border: yellowgreen;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+}
+ul li a{
+    color: #fff;
+}
+ul li:hover{
+    background: yellowgreen;
+    cursor: pointer;
+}
+ul li ul{
+    background: rgb(1, 94, 1);
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+ul li:hover > ul,
+ul li ul:hover{
+    visibility: visible;
+    display: block;
+}
+ul UL ul li{
+    clear: both;
+    width: 100%;
+}
+@media only screen and (max-width:1000px)
+{
+    div{
+        width: auto;
+    }
+}
+

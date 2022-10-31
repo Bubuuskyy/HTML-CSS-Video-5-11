@@ -1,0 +1,13 @@
+div{
+    width: 1000px;
+    margin: auto;
+}
+h1{
+    color: rgb(1, 94, 1);
+}
+p{
+    border: 1px solid black;
+}
+img{
+    border: 1px solid black;
+}
